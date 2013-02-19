@@ -1,1 +1,1 @@
-
+call pathogen#infect()
