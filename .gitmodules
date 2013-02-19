@@ -1,7 +1,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = git://github.com/godlygeek/tabular.git
-
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
@@ -17,3 +16,6 @@
 [submodule "bundle/winmanager"]
 	path = bundle/winmanager
 	url = git://github.com/vim-scripts/winmanager.git
+[submodule "bundle/TeTrIs"]
+	path = bundle/TeTrIs
+	url = git://github.com/vim-scripts/TeTrIs.vim.git
