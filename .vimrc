@@ -1,5 +1,6 @@
 execute pathogen#infect()
 
+
 set encoding=utf-8
 set nu
 
@@ -17,6 +18,10 @@ nmap <F8> :TlistToggle<CR>
 
 let g:Powerline_symbols = 'fancy'
 set laststatus=2
+
+set fillchars+=stl:\ ,stlnc:\
+
+
 
    au FileType php,c,java,javascript,html,htm,smarty call SetOption()
     function! SetOption()
