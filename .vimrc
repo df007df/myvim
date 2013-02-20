@@ -1,6 +1,7 @@
 execute pathogen#infect()
 
 set encoding=utf-8
+set nu
 
 syntax on
 filetype plugin indent on
