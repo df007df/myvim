@@ -19,3 +19,6 @@
 [submodule "bundle/TeTrIs"]
 	path = bundle/TeTrIs
 	url = git://github.com/vim-scripts/TeTrIs.vim.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git
