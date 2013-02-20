@@ -1,4 +1,7 @@
 execute pathogen#infect()
+
+set encoding=utf-8
+
 syntax on
 filetype plugin indent on
 
@@ -9,6 +12,10 @@ map <C-n> :NERDTreeToggle<CR>
 "let Tlist_Show_One_File=1
 let Tlist_Exit_OnlyWindow=1
 nmap <F8> :TlistToggle<CR>
+
+
+let g:Powerline_symbols = 'fancy'
+set laststatus=2
 
    au FileType php,c,java,javascript,html,htm,smarty call SetOption()
     function! SetOption()
